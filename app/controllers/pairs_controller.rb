@@ -1,9 +1,11 @@
-class PairsController < ApplicationController
+class BananasController < ApplicationController
 
 	def index
+		@bananas = Banana.all
 	end
 
 	def new
+		@banana = Banana.new
 	end
 
 	def create

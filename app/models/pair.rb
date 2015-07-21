@@ -1,3 +1,3 @@
-class Pair < ActiveRecord::Base
+class Test < ActiveRecord::Base
 
 end
