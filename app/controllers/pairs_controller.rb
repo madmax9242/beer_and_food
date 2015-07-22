@@ -1,11 +1,11 @@
 class PairsController < ApplicationController
 
 	def index
-		@pairs = pair.all
+		@pairs = Pair.all
 	end
 
 	def new
-		@pair = pair.new
+		@pair = Pair.new
 	end
 
 	def create
