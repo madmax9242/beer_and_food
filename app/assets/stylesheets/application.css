@@ -47,6 +47,10 @@ body  {
  	background-color: #f4de80;
  }
 
+ .pair-div  {
+ 	background-color: gray;
+ }
+
  #beer-filter  {
  	position: absolute;
  	top: 11%;

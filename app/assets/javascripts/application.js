@@ -23,10 +23,4 @@
 //= require_tree ./routers
 //= require_tree .
 
-$(function() {
-	var pairItem = new PairItem({food: 'Apple', beer: 'Hard Cider', beer_type: "Lame Beer"});
-	pairItem.on('change', function() {
-		alert("Shit's changing!!!");
-	});
-})
 	
