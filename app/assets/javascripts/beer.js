@@ -1,7 +1,7 @@
 $(document).ready(function()  {
 
     $.ajax({
-            url: '/bananas',
+            url: '/pairs',
             method: 'GET',
             dataType: 'json',
 
