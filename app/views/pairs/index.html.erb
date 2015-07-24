@@ -1,5 +1,40 @@
 <p id="notice"><%= notice %></p>
 
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Things to remember as you fill out this Living Will</h4>
+          </div>
+          <div class="modal-body">
+            <% @pair = Pair.new %>
+            <%= form_for(@pair) do |f| %>
+              <div class="field">
+                <%= f.label :food %><br>
+                <%= f.text_field :food %>
+              </div>
+              <div class="field">
+                <%= f.label :beer %><br>
+                <%= f.text_field :beer %>
+              </div>
+              <div class="field">
+                <%= f.label :beer_type %><br>
+                <%= f.text_field :beer_type %>
+              </div>
+              <div class="actions">
+                <%= f.submit %>
+              </div>
+            <% end %>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+  </div>
+
 <h2>Listing Pairs</h2>
 
 <table>
@@ -30,4 +65,3 @@
 
 <br>
 
-<%= link_to 'New Pair', new_pair_path %>

@@ -28,7 +28,7 @@ class PairsController < ApplicationController
 
     respond_to do |format|
       if @pair.save
-        format.html { redirect_to @pair, notice: 'Pair was successfully created.' }
+        format.html { redirect_to :pairs, notice: 'Pair was successfully created.' }
         format.json { render :show, status: :created, location: @pair }
       else
         format.html { render :new }
