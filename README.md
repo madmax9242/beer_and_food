@@ -6,4 +6,6 @@ This was my first attempt at making a Backbone app.  So, it's pretty basic, but 
 
 Installing it is pretty simple.  You just need to fork/clone it.  Then run bundle install.  
 
-Since this was a mirror app of my regular rails attempt at it, there weren't really any User Stories or wireframes.  The app really served one purpose so there wasn't a need for all the extra stuff.  
+Since this was a mirror app of my regular rails attempt at it, there weren't really any User Stories or wireframes.  The app really served one purpose so there wasn't a need for all the extra stuff. 
+
+I was able to get the app deployed onto Heroku at the URL morning-woodland-7666.herokuapp.com. 
