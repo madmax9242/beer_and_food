@@ -69,13 +69,7 @@ var PairListView = Backbone.View.extend({
 var pairListView = new PairListView({collection:pairList});
 pairListView.render();
 
-// var newPairItem = new PairItem({
-// 	food: 'Scrapple',
-// 	beer: 'Milwaukee Beast',
-// 	beer_type: 'Pale Ale'
-// });
 
-// pairList.add(newPairItem);
 
 
 
